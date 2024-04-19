@@ -6,7 +6,6 @@
 <title>Credit</title>
 <style>
   body {
-    font-family: Arial, sans-serif; /* You can change the font family if you like */
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,16 +20,22 @@
   .navigation-link {
     text-decoration: none;
     color: blue; /* Or any color you prefer */
+    margin-right: 20px;
   }
+
+  .navigation-link:last-child {
+  margin-right: 0; 
+  }
+  
   .navigation-link:visited {
     color: purple; /* Or any color for visited links */
   }
 </style>
-</head>xs
+</head>
 <body>
 <div class="container">
   <p>The site design is very much inspired by davidh.su.</p>
-  <p><a href="/home" class="navigation-link">[Home]</a> <a href="/about" class="navigation-link">[About]</a></p>
+  <p><a href="../index.html" class="navigation-link">[Home]</a> <a href="../about/index.html" class="navigation-link">[About]</a></p>
 </div>
 </body>
 </html>
