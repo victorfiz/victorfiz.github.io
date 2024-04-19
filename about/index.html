@@ -6,7 +6,6 @@
 <title>About Page</title>
 <style>
   body {
-    font-family: Arial, sans-serif; /* You can change the font family if you like */
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,15 +20,22 @@
   .email-link, .navigation-link {
     text-decoration: none;
     color: blue; /* Or any color you prefer */
+    margin-right: 20px;
   }
+
+  .navigation-link:last-child {
+  margin-right: 0; 
+  }
+
   .navigation-link:visited {
     color: purple; /* Or any color for visited links */
   }
 </style>
-</head>xs
+</head>
 <body>
 <div class="container">
   <p>I study Machine Learning at UCL, and live in London. If you want to get in touch, email me <a href="mailto:victorfizesan@gmail.com" class="email-link">here</a>.</p>
+  <br>
   <p>Previously, I studied engineering at Cambridge. I'm originally from Belgium and have lived in Romania, Brazil, Luxembourg and Switzerland.</p>
   <p><a href="../index.html" class="navigation-link">[Home]</a> <a href="../credit/index.html" class="navigation-link">[Credit]</a></p>
 </div>
