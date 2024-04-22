@@ -43,16 +43,14 @@
 <script>
 
 function calculateExactAge(birthDate, birthTime) {
-    // Combine the birth date and time into a full datetime
-    const birthDateTime = new Date(`${birthDate}T${birthTime}:00`); // ISO format with hours and minutes
+
+    const birthDateTime = new Date(`${birthDate}T${birthTime}:00`); 
     const now = new Date();
 
-    // Calculate the difference in milliseconds
     const diffInMs = now - birthDateTime;
-    // Convert milliseconds to years (1000 milliseconds * 60 seconds * 60 minutes * 24 hours * 365.25 days)
     const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
 
-    return diffInYears.toFixed(5); // Display age with 5 decimal places for precision
+    return diffInYears.toFixed(9); // Display age with 5 decimal places for precision
 }
 
 function displayAge() {
@@ -63,7 +61,7 @@ function displayAge() {
     ageDisplay.textContent = calculateExactAge(birthDate, birthTime);
 }
 
-setInterval(displayAge, 1000);
+setInterval(displayAge, 100);
 
 // Initialize the display when the page loads
 window.onload = displayAge;
