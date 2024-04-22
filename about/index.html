@@ -36,8 +36,40 @@
 <div class="container">
   <p>I study Machine Learning at UCL, and live in London. If you want to get in touch, email me <a href="mailto:victorfizesan@gmail.com" class="email-link">here.</a></p>
   <br>
-  <p>Previously, I studied Natural Sciences and Engineering at Cambridge. I grew up in Belgium, Romania, Brazil, Luxembourg and Switzerland.</p>
+  <p>Previously, I studied Natural Sciences and Engineering at Cambridge. I grew up in Belgium, Romania, Brazil, Luxembourg and Switzerland. I'm <span id="ageDisplay">0</span> years old</p>
   <p><a href="../" class="navigation-link">[Home]</a> <a href="../credit/" class="navigation-link">[Credit]</a></p>
 </div>
+
+<script>
+
+function calculateExactAge(birthDate, birthTime) {
+    // Combine the birth date and time into a full datetime
+    const birthDateTime = new Date(`${birthDate}T${birthTime}:00`); // ISO format with hours and minutes
+    const now = new Date();
+
+    // Calculate the difference in milliseconds
+    const diffInMs = now - birthDateTime;
+    // Convert milliseconds to years (1000 milliseconds * 60 seconds * 60 minutes * 24 hours * 365.25 days)
+    const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
+
+    return diffInYears.toFixed(5); // Display age with 5 decimal places for precision
+}
+
+function displayAge() {
+    const ageDisplay = document.getElementById('ageDisplay');
+    const birthDate = '2002-03-13'; 
+    const birthTime = '23:35'; 
+
+    ageDisplay.textContent = calculateExactAge(birthDate, birthTime);
+}
+
+setInterval(displayAge, 1000);
+
+// Initialize the display when the page loads
+window.onload = displayAge;
+
+
+</script>
+
 </body>
 </html>
