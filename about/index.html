@@ -38,8 +38,8 @@
   <br>
   <p>Previously, I studied Natural Sciences and Engineering at Cambridge. I grew up in Belgium, Romania, Brazil, Luxembourg and Switzerland. I'm currently <span id="ageDisplay">0</span> years old</p>
   <br>
-  <p>I sometimes read. You can find a very incomplete list of my favourite books, essays, tweets, instruction manuals, etc. <a href="../shelf">here</a></p>
-
+  <p>Sometimes I read things that I shelve<a href="../shelf">here.</a></p>
+  <br>
   <p><a href="../" class="navigation-link">[Home]</a> <a href="../credit/" class="navigation-link">[Credit]</a></p>
 </div>
 
@@ -53,7 +53,7 @@ function calculateExactAge(birthDate, birthTime) {
     const diffInMs = now - birthDateTime;
     const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
 
-    return diffInYears.toFixed(4); // Display age with 5 decimal places for precision
+    return diffInYears.toFixed(3); // Display age with 5 decimal places for precision
 }
 
 function displayAge() {
