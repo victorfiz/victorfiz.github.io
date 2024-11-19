@@ -34,15 +34,13 @@
 </head>
 <body>
   <div class="container">
-    <p>I'm a Machine Learning student at UCL. Previously I studied Natural Sciences and Engineering at Cambridge.</p>
-    <br>
-    <p>I am currently interested in energy based models as they relate to diffusion and other generative approaches.</p>
+    <p>I am a Machine Learning student at UCL. I'm interested in energy based models as they relate to diffusion and other generative processes. Previously I studied Natural Sciences and Engineering at Cambridge.</p>
     <br>
     <p>I briefly worked in M&A, and prior to that I co-founded Sentiment, which developed real-time sentiment models to help hedge funds understand what the internet is thinking.</p> 
     <span style="color: white;">I'm currently <span id="ageDisplay">0</span> years old.</span>
-    <p>Occasionally I read things and I shelve them <a href="../shelf">here.</a></p>
+    <p>Occasionally I read things and shelve them <a href="../shelf">here.</a></p>
     <br>
-    <p>If you want to get in touch, <a href="mailto:victorfizesan@gmail.com" class="email-link">this</a> is my email.</p>
+    <p>If you want to get in touch, <a href="mailto:victorfizesan@gmail.com" class="email-link" style="margin-right: 0;">this</a> is my email.</p>
     <p><a href="../" class="navigation-link">[Home]</a> <a href="../credit/" class="navigation-link">[Credit]</a></p>
   </div>
   
@@ -58,7 +56,7 @@ function calculateExactAge(birthDate, birthTime) {
     const diffInMs = now - birthDateTime;
     const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
 
-    return diffInYears.toFixed(3); // Display age with 5 decimal places for precision
+    return diffInYears.toFixed(8); // Display age with 5 decimal places for precision
 }
 
 function displayAge() {
