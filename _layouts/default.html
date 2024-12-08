@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="author" content="{{ site.author }}">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/blog.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/trac.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/markdown.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/shelf.css">
+
+    {% include mathjax.html %}
+</head>
+<body>
+    <div class="content">
+        {% include nav.html %}
+        <div class="front-matter">
+            <div class="wrap">
+                <h1>{{ page.title }}</h1>
+                <h4>{{ page.subtitle }}</h4>
+                <div class="bylines">
+                    <div class="byline">
+                        <h3>Published</h3>
+                        <p>{{ page.date | date: '%d %B %Y' }}</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="wrap article">
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>
+

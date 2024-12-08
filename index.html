@@ -4,57 +4,54 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Victor Fizesan - London</title>
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/images/favicon.png">
+<link rel="stylesheet" href="/assets/css/blog.css">
+<link rel="stylesheet" href="/assets/css/markdown.css">
 <style>
-  body, html {
-    height: 100%;
+  body {
+    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-  }
-  .image-container {
-    /* Adjust the width as necessary */
-    width: 80%; 
-    max-width: 800px;
   }
 
-  .image-container img {
-    width: 100%;
-    height: auto;
-    display: block; /* Remove extra space below the image */
+  .container {
+    width: 50vw;
+    height: 60vh;
+    text-align: left;
+    padding: 20px;
   }
 
-  .navigation {
-    text-align: center;
-    margin-top: 20px;
+  h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.6em;
   }
 
-  .navigation-link {
+  a {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+    margin-bottom: 2px;
+    display: block;
+    font-size: 16px;
+  }
+
+  .email {
+    font-family: monospace;
     text-decoration: none;
-    color: blue;
-    margin-right: 20px;
-  }
-
-  .navigation-link:last-child {
-    margin-right: 0;
-  }
-
-  .navigation-link:visited {
-    color: purple;
+    margin-top: 10px;
+    font-size: 14px;
   }
 </style>
 </head>
 <body>
-<p><i>Victor Fizesan</i></p>
-<div class="image-container">
-  <img src="gerlos.jpg" alt="Victor Fizesan - London">
-</div>
-<div class="navigation">
-  <a href="/about/" class="navigation-link">[About]</a>
-  <a href="/credit/" class="navigation-link">[Credit]</a>
-</div>
-
+  <div class="container">
+    <h1>Victor Fizesan</h1>
+    <a href="/about">About</a>
+    <a href="/blog">Blog</a>
+    <a href="https://github.com/victorfiz">Code</a>
+    <a href="mailto:" class="email">[name][surname]@gmail.com</a>
+  </div>
 </body>
 </html>

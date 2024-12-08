@@ -1,0 +1,48 @@
+/* Container styling */
+.shelf-content {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* List styling */
+.shelf-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.shelf-content li {
+    margin-bottom: 12px;
+}
+
+/* Link styling */
+.shelf-content a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.shelf-content a:hover {
+    text-decoration: underline;
+}
+
+/* Green highlight */
+.shelf-content a.green {
+    color: #097969;
+}
+
+/* Quote styling */
+#intro {
+    margin-bottom: 40px;
+}
+
+.quote {
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+}
+
+.quote p {
+    color: #666;
+    font-style: italic;
+    margin: 0;
+}
