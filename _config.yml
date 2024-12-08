@@ -1,0 +1,8 @@
+title: Victor Fiz's Blog
+description: >
+  A blog showcasing various projects and posts.
+baseurl: ""
+url: "http://127.0.0.1:4000"
+
+markdown: kramdown
+

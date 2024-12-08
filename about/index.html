@@ -4,76 +4,69 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Page</title>
+<link rel="stylesheet" href="/assets/css/blog.css">
 <style>
   body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    font-family: -apple-system, Helvetica, arial, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .content {
+    margin-top: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
   }
   .container {
-    max-width: 475px; /* Adjust as needed for your layout */
+    max-width: 700px;
+    width: 100%;
+    padding: 0 15px;
+    text-align: left;
+    margin: 0 auto;
   }
-  .email-link, .navigation-link {
+  .email-link {
     text-decoration: none;
-    color: blue; /* Or any color you prefer */
-    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: monospace;
+    display: block;
+    margin-top: 20px;
   }
-
-  .navigation-link:last-child {
-  margin-right: 0; 
+  p {
+    line-height: 1.5;
+    margin: 0 0 15px 0;
   }
-
-  .navigation-link:visited {
-    color: purple; /* Or any color for visited links */
+  a {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+  }
+  .container p, 
+  .container span, 
+  .container a {
+    padding-right: 150px;  /* Adjust this value as needed */
   }
 </style>
 </head>
 <body>
-  <div class="container">
-    <p>I am a Machine Learning student at UCL. I'm interested in energy based models as they relate to diffusion and other generative processes. Previously I studied Natural Sciences and Engineering at Cambridge.</p>
-    <br>
-    <p>I briefly worked in M&A, and prior to that I co-founded Sentiment, which developed real-time sentiment models to help hedge funds understand what the internet is thinking.</p> 
-    <span style="color: white;">I'm currently <span id="ageDisplay">0</span> years old.</span>
-    <p>Occasionally I read things and shelve them <a href="../shelf">here.</a></p>
-    <br>
-    <p>If you want to get in touch, <a href="mailto:victorfizesan@gmail.com" class="email-link" style="margin-right: 0;">this</a> is my email.</p>
-    <p><a href="../" class="navigation-link">[Home]</a> <a href="../credit/" class="navigation-link">[Credit]</a></p>
-  </div>
-  
-  
+<div class="nav">
+    <div class="wrap">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+    </div>
+</div>
 
-<script>
-
-function calculateExactAge(birthDate, birthTime) {
-
-    const birthDateTime = new Date(`${birthDate}T${birthTime}:00`); 
-    const now = new Date();
-
-    const diffInMs = now - birthDateTime;
-    const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
-
-    return diffInYears.toFixed(8); // Display age with 5 decimal places for precision
-}
-
-function displayAge() {
-    const ageDisplay = document.getElementById('ageDisplay');
-    const birthDate = '2002-03-13'; 
-    const birthTime = '23:35'; 
-
-    ageDisplay.textContent = calculateExactAge(birthDate, birthTime);
-}
-
-setInterval(displayAge, 500);
-
-// Initialize the display when the page loads
-window.onload = displayAge;
-
-
-</script>
+<div class="content">
+    <div class="container">
+        <p>I am a Machine Learning student at UCL. I'm interested in energy based models as they relate to diffusion and other generative processes. Previously I studied Natural Sciences and Engineering at Cambridge.</p>
+        <p>I briefly worked in M&A, and prior to that I co-founded Sentiment, which developed real-time sentiment models to help hedge funds understand what the internet is thinking.</p> 
+        <p>Occasionally I read things and shelve them <a href="../shelf">here.</a></p>
+        <span style="color: white;">I'm currently <span id="ageDisplay">0</span> years old.</span>
+    </div>
+</div>
 
 </body>
 </html>
