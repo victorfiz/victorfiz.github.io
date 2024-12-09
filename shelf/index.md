@@ -55,7 +55,7 @@ title: Shelf
 * [The Little Book on Deep Learning](https://fleuret.org/public/lbdl.pdf)
 * [Nabeel Quereshi – Principles](https://nabeelqu.co/principles)
 * [Neuromorphic Computing: Semiconductors to Josephson Junctions](https://youtu.be/EwueqdgIvq4?si=mIKd4Z7dok1dqDM_)
-* [The Gay Science: Nietzsche](https://en.wikipedia.org/wiki/The_Gay_Science?useskin=vector){:.green}: the necessity of living an authentic life in a world devoid of inherent meaning
+* [The Gay Science: Nietzsche](https://en.wikipedia.org/wiki/The_Gay_Science?useskin=vector){:.green}: the necessity of living an authentic life in a world devoid of inherent meaning (how depressing)
 * [Probability Theory: The Logic of Science](https://bayes.wustl.edu/etj/prob/book.pdf)
 * [Maxwell’s Demon](https://en.wikipedia.org/wiki/Maxwell%27s_demon?useskin=vector)
 * [Incrementalism](https://en.wikipedia.org/wiki/Incrementalism?useskin=vector)
