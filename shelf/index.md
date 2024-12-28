@@ -8,6 +8,7 @@ title: Shelf
     <title>{{ page.title }}</title>
     <meta charset='UTF-8'>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/images/favicon.png">
 
     <meta name='description' content='Victor Fizesan'>
     <meta name='keywords' content='{{ page.keywords }}'>
@@ -46,6 +47,7 @@ title: Shelf
 * [Crime and Punishment – Dostoevsky](https://en.wikipedia.org/wiki/Crime_and_Punishment?useskin=vector)
 * [Information Theory, Inference, and Learning Algorithms – David MacKay](https://www.inference.org.uk/itprnn/book.pdf)
 * [The Moon is a Harsh Mistress – Robert Heinlein](https://www.amazon.co.uk/Moon-Harsh-Mistress-Robert-Heinlein/dp/0312863551)
+* [Memorylessness](https://en.wikipedia.org/wiki/Memorylessness?useskin=vector): all exponential distributions feel and are memoryless
 * [Brave New World – Aldous Huxley](https://en.wikipedia.org/wiki/Brave_New_World?useskin=vector)
 * [The Electric Kool-Aid Acid Test – Tom Wolfe](https://en.wikipedia.org/wiki/The_Electric_Kool-Aid_Acid_Test?useskin=vector)
 * [The Dream Machine](https://press.stripe.com/the-dream-machine){:.green}: Licklider and the development of computers and the Internet
@@ -79,6 +81,7 @@ title: Shelf
 * [The Last Question – Isaac Asimov](https://users.ece.cmu.edu/~gamvrosi/thelastq.html){:.green}
 * [Notes from the Underground – Dostoevsky](https://en.wikisource.org/wiki/White_Nights_and_Other_Stories/Notes_from_Underground/Part_1){:.green}
 * [Philosophy in a Meaningless Life](https://library.oapen.org/bitstream/id/02cbd573-f1a1-41a2-9549-3757b58b4b7c/9781474247672.pdf): why existentialism should not influence how you live your life
+* [Cognitive Load is what Matters](https://minds.md/zakirullin/cognitive): complexity and absctraction in software development
 * [The Law – Frédéric Bastiat](https://en.wikipedia.org/wiki/The_Law_(Bastiat_book)?useskin=vector): the role of the government in protecting individual rights
 * [Scaling People: Tactics for Management and Company Building](https://www.amazon.co.uk/Scaling-People-Tactics-Management-Building/dp/B0BXMFNHTY/ref=sr_1_1?crid=12XGNQMFZPYS9&keywords=Scaling+People%3A+Tactics+for+Management+and+Company+Building&qid=1703192798&sprefix=scaling+people+tactics+for+management+and+company+building%2Caps%2C92&sr=8-1)
 * [High Growth Handbook – Elad Gil](https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100/)
@@ -157,11 +160,11 @@ title: Shelf
 * [Do Not Go Gentle into That Good Night – Dylan Thomas](https://www.poetryfoundation.org/poems/46569/do-not-go-gentle-into-that-good-night)
 * [If – Rudyard Kipling](https://www.poetryfoundation.org/poems/46473/if---){:.green}
 * [You can’t tell people anything](https://news.ycombinator.com/item?id=23617188): challenges of conveying new, complex ideas effectively
-* [The Bitter Lesson – AI Progress via Scaling](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
+* [The Bitter Lesson – Rich Sutton](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
 * [On the shortness of life – Seneca](https://ia804709.us.archive.org/9/items/SenecaOnTheShortnessOfLife/Seneca%20on%20the%20Shortness%20of%20Life.pdf)
 * [The Usborne Science Encyclopedia](https://www.amazon.co.uk/Usborne-Science-Encyclopedia-Kirsteen-Rogers/dp/079453046X){:.green}
 * [Most people want to change the world](https://bryce.vc/post/64889707700/most-people-wont)
-* [State of ML each year: 2017-Present](https://research.google/people/jeff/)
+* [State of ML 2017-Present – Jeff Dean](https://research.google/people/jeff/)
 * [Recruiting - Vinod Khosla](https://www.khoslaventures.com/the-art-science-and-labor-of-recruiting/)
 * [Sam Altman – the days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
 * [Zero to One – Peter Thiel](https://www.amazon.co.uk/Zero-One-Notes-Startups-Future/dp/0804139296){:.green}
