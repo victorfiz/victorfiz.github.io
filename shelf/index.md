@@ -70,6 +70,7 @@ title: Shelf
 * [Cosmic Natural Selection](https://en.wikipedia.org/wiki/Cosmological_natural_selection?useskin=vector)
 * [Freeman Dyson Heresies](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society){:.green}
 * [Berkshire Annual Reports](https://www.berkshirehathaway.com/reports.html)
+* [The Enlightened Economy - Joel Mokyr](https://www.amazon.com/Enlightened-Economy-Economic-History-1700-1850/dp/0300124554): An Economic History of Britain 1700-1850
 * [Marc Andreesen Guide to Startups](https://fictivekin.github.io/pmarchive-jekyll/)
 * [Gitlab Manual](https://about.gitlab.com/handbook/): managing culture remotely
 * [David Hume and Adam Smith: The Infidel and the Professor](https://www.amazon.co.uk/Infidel-Professor-Friendship-Shaped-Thought/dp/0691177015)
