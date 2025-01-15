@@ -11,6 +11,8 @@ html {
   }
   body .content {
     margin-bottom: 120px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
   }
   a {
     color: rgba(0, 0, 0, 0.8);
@@ -97,10 +99,10 @@ html {
     margin-bottom: 50px;
   }
   .article blockquote {
-    margin: 0;
+    margin: 16px 0;
     padding: 0 1em;
-    color: #777;
-    border-left: 0.25em solid #ddd;
+    color: rgba(0, 0, 0, 0.8);
+    border-left: 0.25em solid #dfe2e5;
   }
   .article h2 {
     font-size: 26px;
@@ -148,8 +150,8 @@ html {
     color: rgba(0, 0, 0, 0.5);
   }
   #blog {
-    margin-top: 80px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
   #blog #intro {
     font-size: 14px;
@@ -255,7 +257,7 @@ html {
   .article blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: #6a737d;
+    color: rgba(0, 0, 0, 0.8);
     border-left: 0.25em solid #dfe2e5;
   }
   #intro {
@@ -271,4 +273,8 @@ html {
     font-style: italic;
     margin: 0;
     padding: 0;
+  }
+  .wrap.article {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
