@@ -96,6 +96,7 @@ title: Shelf
 * [A Brief History of Intelligence](https://www.goodreads.com/book/show/62050269-a-brief-history-of-intelligence)
 * [The Metamorphosis of Prime Intellect](https://mogami.neocities.org/files/prime_intellect.pdf): superintelligence and its implications on humanity's purpose and existence
 * [Malthusianism](https://en.wikipedia.org/w/index.php?title=Malthusianism&useskin=vector)
+* [The Straussian Moment](https://gwern.net/doc/politics/2007-thiel.pdf): a critique of the West's dependence on liberal ideals of individualism and economic progress, in the face of human nature
 * [No Man Is An Island](https://www.amazon.co.uk/No-Man-Island-Portrait-Singapores/dp/0044000286): A Study Of Singapore's Lee Kuan Yew
 * [John Maynard Keynes: 1883-1946: Economist, Philosopher, Statesman](https://www.amazon.co.uk/John-Maynard-Keynes-1883-1946-Philosopher/dp/0143036157)
 * [Lehninger: Principles of Biochemistry](https://www.amazon.co.uk/Lehninger-Principles-Biochemistry-Michael-Cox/dp/0716743396){:.green}
