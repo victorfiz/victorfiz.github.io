@@ -35,7 +35,7 @@ title: Shelf
 * [The Beginning of Infinity – David Deutsch](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity?useskin=vector){:.green}: the pursuit of knowledge through good explanations; a rational framework for optimism
 * [HBS 1963](https://hbs1963.com/): 70 people looking back at their lives
 * [Solomonoff Induction](https://en.wikipedia.org/wiki/Solomonoff%27s_theory_of_inductive_inference?useskin=vector)
-* [Statistical Consequences of Fat Tails – N.N. Taleb](https://arxiv.org/abs/2001.10488){:.green}: we over-index on thin tailed distributions when predicting events; heavy tails are unintuitive and are defined by a completely different paradigm
+* [Statistical Consequences of Fat Tails – N.N. Taleb](https://arxiv.org/abs/2001.10488){:.green}: we over-index on thin tailed distributions when predicting events; heavy tails are unintuitive and define a completely different paradigm
 * [The Structure of Scientific Revolutions](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions)
 * [Classical Mechanics – Leonard Susskind](https://www.amazon.co.uk/Classical-Mechanics-Theoretical-Minimum/dp/0141976225)
 * [Bureaucracy – Ludwig von Mises](https://cdn.mises.org/Bureaucracy_3.pdf)
@@ -96,14 +96,14 @@ title: Shelf
 * [A Brief History of Intelligence](https://www.goodreads.com/book/show/62050269-a-brief-history-of-intelligence)
 * [The Metamorphosis of Prime Intellect](https://mogami.neocities.org/files/prime_intellect.pdf): superintelligence and its implications on humanity's purpose and existence
 * [Malthusianism](https://en.wikipedia.org/w/index.php?title=Malthusianism&useskin=vector)
-* [The Straussian Moment](https://gwern.net/doc/politics/2007-thiel.pdf): a critique of the West's dependence on liberal ideals of individualism and economic progress, in the face of human nature
+* [The Straussian Moment](https://gwern.net/doc/politics/2007-thiel.pdf): a critique of the West's dependence on liberal ideals (individualism and economic progress) in the face of human nature
 * [No Man Is An Island](https://www.amazon.co.uk/No-Man-Island-Portrait-Singapores/dp/0044000286): A Study Of Singapore's Lee Kuan Yew
 * [John Maynard Keynes: 1883-1946: Economist, Philosopher, Statesman](https://www.amazon.co.uk/John-Maynard-Keynes-1883-1946-Philosopher/dp/0143036157)
 * [Lehninger: Principles of Biochemistry](https://www.amazon.co.uk/Lehninger-Principles-Biochemistry-Michael-Cox/dp/0716743396){:.green}
 * [The Corrections – Jonathan Franzen](https://en.wikipedia.org/wiki/The_Corrections?useskin=vector): personal failures, moral dilemmas, and the changing socioeconomic landscape of late 20th-century America.
 * [Principles – Ray Dalio](https://www.amazon.co.uk/Principles-Life-Work-Ray-Dalio/dp/1501124021)
 * [Monetising Innovation – Madhavan Ramanujan](https://www.amazon.com/dp/B01F4DYY1I/ref=as_li_ss_tl?_encoding=UTF8&btkr=1&linkCode=sl1&tag=kidogo-20&linkId=47892f1007c721be262cce7f002cf10f)
-* [Experimental Conversations – Timothy Odgen](https://www.amazon.co.uk/Experimental-Conversations-Perspectives-Randomized-Development/dp/0262035103): interviews with leading researchers who study issues in development economics
+* [Experimental Conversations – Timothy Odgen](https://www.amazon.co.uk/Experimental-Conversations-Perspectives-Randomized-Development/dp/0262035103): randomised controlled trials in development economics
 * [The Beauty of Mathematics in Computer Science – Jun Wu](https://www.amazon.co.uk/Beauty-Mathematics-Computer-Science/dp/1138049603)
 * [Grit: The Power of Passion and Perseverance](https://www.amazon.co.uk/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108)
 * [The Fountainhead – Ayn Rand](https://en.wikipedia.org/wiki/The_Fountainhead)
@@ -112,7 +112,7 @@ title: Shelf
 * [Trillion Dollar Coach — Eric Schmidt](https://www.amazon.co.uk/Trillion-Dollar-Coach-Leadership-Handbook/dp/1473675960)
 * [The Art of Statistics](https://www.amazon.co.uk/Art-Statistics-Learning-Pelican-Books/dp/0241398630)
 * [The Hard Thing About Hard Things – Ben Horowitz](https://www.amazon.co.uk/Hard-Thing-About-Things-Building/dp/0062273205): managing crises, handling layoffs, and navigating complexities of scaling
-* [No Rules (Netflix) – Reed Hastings](https://www.amazon.co.uk/No-Rules-Netflix-Culture-Reinvention/dp/1984877860): strategy for fostering innovation and creativity
+* [No Rules (Netflix) – Reed Hastings](https://www.amazon.co.uk/No-Rules-Netflix-Culture-Reinvention/dp/1984877860): strategies for fostering innovation and creativity
 * [The Phoenix Project](https://www.amazon.co.uk/Phoenix-Project-DevOps-Helping-Business/dp/0988262592): DevOps and project management
 * [How to Win Friends & Influence People](https://www.amazon.co.uk/How-Win-Friends-Influence-People/dp/0671027034)
 * [](https://en.wikipedia.org/w/index.php?title=List_of_superseded_scientific_theories&useskin=vector#Physics)
