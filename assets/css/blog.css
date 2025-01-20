@@ -165,18 +165,33 @@ html {
   #blog .quote p {
     margin-bottom: 5px;
   }
+  #blog .post-row {
+    margin-bottom: 25px;
+  }
+  #blog .post-title {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
   #blog .post-date {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.7);
     font-size: 12px;
     font-weight: bold;
     margin-top: 4px;
     margin-bottom: 4px;
+    line-height: 1;
   }
-  #blog .post-title {
+  #blog .post-date svg,
+  #blog .post-date img {
+    height: 18px;
+    width: auto;
     display: inline-block;
-    font-weight: bold;
-    margin-bottom: 0;
+    vertical-align: middle;
+    margin-left: 8px;
   }
   #blog .post-title a {
     font-size: 18px;

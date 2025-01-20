@@ -4,6 +4,7 @@ title: The Blessings of Dimensionality
 subtitle: High dimensional space is often said to be cursed. It has some unintuitive properties that complicates the separation of meaningful information in traditional machine learning. Looking closer, it turns out that this is actually a blessing in disguise for real-world data. 
 date: 2024-12-15
 categories: blog
+type: technical
 ---
 
 Understanding spaces in high dimensions is surprisingly unintuitive. A simple example that illustrates this is scaling a sphere to infinite dimensions, where its volume tends to zero. 
@@ -196,7 +197,7 @@ where $\boldsymbol{\mu}_A, \boldsymbol{\mu}_B \in \mathbb{R}^n$ are the respecti
 
 - **Between‐generator distance**: For a point from $\mathcal{G}_A$ and one from $\mathcal{G}_B$, the difference $\mathbf{x}_A - \mathbf{x}_B$ includes the shift $\boldsymbol{\mu}_A - \boldsymbol{\mu}_B$. Even a modest shift $\|\boldsymbol{\mu}_A - \boldsymbol{\mu}_B\|$ becomes amplified in high dimensions, making inter‐generator distances typically *larger* than intra‐generator distances.
 
-Consequently, in large $n$, data from each generator will concentrate into distinct *shells* or *manifolds* with negligible overlap. Sibling generators (e.g. two cat breeds) form shells far apart from one another, yet each remains close within its own breed’s shell. Child shells nest inside or near the parent shell (all domestic cats remain within the broader feline shell), but are still distinct from other child shells at the same level. This "push" into separate shells is not something we exploit in low dimensions—but it emerges naturally in high dimensions, giving us surprisingly clear separations between different concepts. In deep learning, one can *think of hidden‐layer representations as "discovering" or approximating these shells*.
+Consequently, in large $n$, data from each generator will concentrate into distinct *shells* or *manifolds* with negligible overlap. Sibling generators (e.g. two cat breeds) form shells far apart from one another, yet each remains close within its own breed's shell. Child shells nest inside or near the parent shell (all domestic cats remain within the broader feline shell), but are still distinct from other child shells at the same level. This "push" into separate shells is not something we exploit in low dimensions—but it emerges naturally in high dimensions, giving us surprisingly clear separations between different concepts. In deep learning, one can *think of hidden‐layer representations as "discovering" or approximating these shells*.
 
 -----
 

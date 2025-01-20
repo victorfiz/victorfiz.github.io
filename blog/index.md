@@ -33,7 +33,14 @@ title: My Blog
                         <p class='post-title'>
                             <a href="{{ post.url }}">{{ post.title }}</a>
                         </p>
-                        <p class='post-date'>{{ post.date | date: "%B %d, %Y" }}</p>
+                        <p class='post-date'>
+                            {{ post.date | date: "%B %d, %Y" }}
+                            {% if post.type == "technical" %}
+                            <img src="/assets/images/technical.svg" alt="Technical post" />
+                            {% elsif post.type == "opinion" %}
+                            <img src="/assets/images/opinion.svg" alt="Opinion post" />
+                            {% endif %}
+                        </p>
                         <p class='post-subtitle'>{{ post.subtitle }}</p>
                     </div>
                 {% endfor %}

@@ -4,6 +4,7 @@ title: Diffusion Models
 subtitle: An exploration of the mathematical foundations of diffusion models, covering forward and reverse processes, ELBO, and training objectives.
 date: 2024-12-07
 categories: blog
+type: technical
 ---
 
 Diffusion models approximate a data distribution $q(x)$ by gradually adding noise to the data through a forward process and learning to reverse this corruption via a generative reverse process. The goal is to produce samples $x^{(0)} \sim p_\theta(x^{(0)})$ that resemble data $x \sim q(x)$.
