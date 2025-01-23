@@ -35,7 +35,7 @@ title: Shelf
 * [The Beginning of Infinity – David Deutsch](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity?useskin=vector){:.green}: the pursuit of knowledge through good explanations; a rational framework for optimism
 * [HBS 1963](https://hbs1963.com/): 70 people looking back at their lives
 * [Solomonoff Induction](https://en.wikipedia.org/wiki/Solomonoff%27s_theory_of_inductive_inference?useskin=vector)
-* [Statistical Consequences of Fat Tails – N.N. Taleb](https://arxiv.org/abs/2001.10488){:.green}: we over-index on thin tailed distributions when predicting events; heavy tails are unintuitive and define a completely different paradigm
+* [Statistical Consequences of Fat Tails – N.N. Taleb](https://arxiv.org/abs/2001.10488){:.green}: we over-index on thin tailed distributions when predicting events; our world is [dominated by heavy tails](https://arxiv.org/pdf/1709.01450), which have unintuitive properties
 * [The Structure of Scientific Revolutions](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions)
 * [Classical Mechanics – Leonard Susskind](https://www.amazon.co.uk/Classical-Mechanics-Theoretical-Minimum/dp/0141976225)
 * [Bureaucracy – Ludwig von Mises](https://cdn.mises.org/Bureaucracy_3.pdf)
@@ -163,6 +163,7 @@ title: Shelf
 * [If – Rudyard Kipling](https://www.poetryfoundation.org/poems/46473/if---){:.green}
 * [You can’t tell people anything](https://news.ycombinator.com/item?id=23617188): challenges of conveying new, complex ideas effectively
 * [The Bitter Lesson – Rich Sutton](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
+* [The Purpose of a System is What it Does](https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does?useskin=vector)
 * [On the shortness of life – Seneca](https://ia804709.us.archive.org/9/items/SenecaOnTheShortnessOfLife/Seneca%20on%20the%20Shortness%20of%20Life.pdf)
 * [The Usborne Science Encyclopedia](https://www.amazon.co.uk/Usborne-Science-Encyclopedia-Kirsteen-Rogers/dp/079453046X){:.green}
 * [Most people want to change the world](https://bryce.vc/post/64889707700/most-people-wont)
