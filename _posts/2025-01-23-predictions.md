@@ -7,7 +7,7 @@ categories: blog
 type: opinion
 ---
 
-We live in times of change. The o3 / R1 releases just confirmed that as long as you can define a clean enough reward signal, you can make your model learn anything... including reasoning. 
+The o3 / R1 releases just confirmed that as long as you can define a clean enough reward signal, you can make your model learn anything... including reasoning. 
 
 To recap, we know that [R1](https://arxiv.org/pdf/2501.12948) optimises a policy that rewards: 
 1. <strong>Accuracy</strong>: e.g. maths problems checked by [proof assistants](https://en.wikipedia.org/wiki/Lean_(proof_assistant)?useskin=vector) or code verified by compilers. 
