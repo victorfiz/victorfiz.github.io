@@ -45,7 +45,7 @@ title: Shelf
 * [The Hitchhiker’s Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy?useskin=vector)
 * [The History of Philosophy](https://www.amazon.co.uk/History-Philosophy-C-Grayling/dp/0241304547#:~:text=The%20History%20of%20Philosophy%20takes,and%20the%20Persian%2DArabic%20world.)
 * [Crime and Punishment – Dostoevsky](https://en.wikipedia.org/wiki/Crime_and_Punishment?useskin=vector)
-* [Information Theory, Inference, and Learning Algorithms – David MacKay](https://www.inference.org.uk/itprnn/book.pdf)
+* [Information Theory, Inference, and Learning Algorithms – David MacKay](https://www.inference.org.uk/itprnn/book.pdf){:.green}
 * [The Moon is a Harsh Mistress – Robert Heinlein](https://www.amazon.co.uk/Moon-Harsh-Mistress-Robert-Heinlein/dp/0312863551)
 * [Memorylessness](https://en.wikipedia.org/wiki/Memorylessness?useskin=vector): all exponential distributions feel and are memoryless
 * [Brave New World – Aldous Huxley](https://en.wikipedia.org/wiki/Brave_New_World?useskin=vector)
@@ -65,7 +65,7 @@ title: Shelf
 * [Optimize for Volatility, not Average Capacity](https://jeremynixon.github.io/thinking/2015/06/22/optimize-for-volatility.html)
 * [Smart Contracts (1994) Nick Szabo](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html)
 * [How to Ask Smart Questions](http://www.catb.org/~esr/faqs/smart-questions.html)
-* [What Every Successful Person Knows, But Never Says](https://jamesclear.com/ira-glass-failure#:~:text=It%27s%20trying%20to%20be%20good,never%20get%20past%20that%20phase.){:.green}: on the creative process
+* [What Every Successful Person Knows, But Never Says](https://jamesclear.com/ira-glass-failure#:~:text=It%27s%20trying%20to%20be%20good,never%20get%20past%20that%20phase.): on the creative process
 * [Building Products – Christina Cacioppo](https://web.archive.org/web/20170706174617/http://christinacacioppo.com/blog/build-products): the iterative process of improving projects.
 * [Cosmic Natural Selection](https://en.wikipedia.org/wiki/Cosmological_natural_selection?useskin=vector)
 * [Freeman Dyson Heresies](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society){:.green}
@@ -120,7 +120,7 @@ title: Shelf
 * [The Ancient City – Imperium Press](https://www.amazon.co.uk/Ancient-City-Religion-Institutions-Greece/dp/0801823048): roles of religion, social hierarchy, and governance in urban development and the daily lives of ancient Greeks and Romans
 * [The Machiavellians: Defenders of Freedom](https://www.amazon.co.uk/Machiavellians-Defenders-Freedom-James-Burnham/dp/1839013958/ref=sr_1_1?keywords=the+machiavellians&qid=1669055004&sprefix=the+machia%2Caps%2C124&sr=8-1): the importance of political power dynamics
 * [Margin of Safety – Seth Klarman](https://en.wikipedia.org/wiki/Margin_of_Safety_(book)?useskin=vector)
-* [Poor Charlie’s Almanac](https://www.stripe.press/poor-charlies-almanack){:.green}
+* [Poor Charlie’s Almanac](https://www.stripe.press/poor-charlies-almanack)
 * [Silicon Valley Product Group Blog](https://www.svpg.com/articles/)
 * [The Intelligent Investor – Benjamin Graham](https://en.wikipedia.org/wiki/The_Intelligent_Investor?useskin=vector)
 * [Visualisations and Design – Bret Victor](http://worrydream.com/SeeingSpaces/SeeingSpaces.jpg)
