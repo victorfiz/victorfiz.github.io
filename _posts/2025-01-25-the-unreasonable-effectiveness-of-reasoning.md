@@ -5,7 +5,6 @@ subtitle: A very unscientific framework for understanding reasoning models, and 
 date: 2025-01-25
 categories: blog
 type: opinion
-visibility: off
 ---
 
 Let's first look at what R1 does. 
@@ -31,5 +30,12 @@ LessWrong->
 Some issues/questions: 
 
 
+"When a task has sufficient "policy information capacity" (mutual information between initial policy distribution and reward), RL success is guaranteed" 
 
 Testing tooltips: The {% include tooltip.html term="AGI" definition="Artificial General Intelligence" %} revolution will change everything.
+
+
+
+NVDA advantage for test time compute (inference) is not as great as for model training. Look at Groq or AMD or even Huawei Ascend chips...  
+
+Also it's just speculation that test time reasoning will create economic value and revenues w/out the same bottlenecks (human decision makers, hard work to make applications work in a specific use case, etc.) that genAI faces right now. Again, if it takes several years to scale economically viable applications you have to question NVDA's lead over competition. 

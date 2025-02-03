@@ -293,3 +293,10 @@ html {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .tooltip img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+  }
