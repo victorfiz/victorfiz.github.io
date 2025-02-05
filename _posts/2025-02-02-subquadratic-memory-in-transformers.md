@@ -47,7 +47,7 @@ $$
 \mathbf{o_t} = \mathbf{S_{t}}\mathbf{q_t} \in \mathbb{R}^{d}
 $$
 
-Essentially, we have compressed our KV-cache into a finite $d \times d$ hidden state by taking the outer product, $\mathbf{v_t}\mathbf{k_t}^T$. You can now see how linear attention is an RNN over the sequence. Softmax attention, on the other hand, runs a unique RNN for each token in the sequence, with each key-value pair acting as a separate hidden state. You can therefore guess which is more expressive.  
+Essentially, we have compressed our KV-cache into a finite $d \times d$ hidden state by taking the outer product, $\mathbf{v_t}\mathbf{k_t}^T$. You can now see how linear attention is an RNN over the sequence. Softmax attention, on the other hand, runs a unique RNN for each token in the sequence, with each key-value pair acting as a separate hidden state. You can therefore guess which is more expressive. You may have also noticed that 
 
 Now might be a good time to re-state an implicit feature of using keys and values in sequence modelling. Each token representation already encodes context from everything that came before it, so in that sense we have built an associative memory: querying a token's key returns a value reflecting the "associated" representations. This is essentially how associative memory works in humans: a "cue" retrieves a "response" with related representations.  
 
@@ -72,7 +72,7 @@ $$
 m_{\text{linear}} = \arg\min_{m \in \mathcal{M}} \frac{1}{2} \sum_{i=1}^t \,\| \mathbf{v}_i - m(k_i)\|_2^2 = \mathbf{V}^\top \mathbf{K} \left( \mathbf{K}^\top \mathbf{K} \right)^{-1} \scriptstyle{\mid} \, {\scriptstyle t \, > \, d_{\text{keys}}}
 $$
 
-Calculating $\small{\left( \mathbf{K}^\top \mathbf{K} \right)^{-1}}$ is computationally expensive, but if we assume that {% include tooltip.html term="key embeddings are approximately orthogonal" definition="This can only be true of course if ${\scriptstyle  d_{\text{keys}} \, \geq  \,  t}$, since then each embedding can inhabit a unique orthogonal dimension. Essentially we choose to ignore the covariance between the dimensions of the key vectors. The only way to prevent this is by increasing the dimensions of the square hiddent state." %} to one another, we can make the approximation $\mathbf{K}^\top \mathbf{K} = \mathbf{I}$. Notice now that $M_{\text{t}} \approx \sum_{i=1}^t \mathbf{v_i}\mathbf{k_i}^T$, which is just our compressed KV-cache. Here $\phi (\mathbf{k_i})$ is a linear kernel, but we can also use linear attention with a nonlinear feature map, which can be solved by the same approximation as above. This is essentially what [The Hedgehog](https://openreview.net/pdf?id=4g02l2N2Nx) and [DiJian](https://openreview.net/pdf?id=0uUHfhXdnH) do.
+Calculating $\small{\left( \mathbf{K}^\top \mathbf{K} \right)^{-1}}$ is computationally expensive, but if we assume that {% include tooltip.html term="key embeddings are approximately orthogonal" definition="This can only be true of course if ${\scriptstyle  d_{\text{keys}} \, \geq  \,  t}$, since then each embedding can inhabit a unique orthogonal dimension. Essentially we choose to ignore the covariance between the dimensions of the key vectors. The only way to prevent this is by increasing the dimensions of the square hiddent state." %} to one another, we can make the approximation $\mathbf{K}^\top \mathbf{K} = \mathbf{I}$. Notice now that we have {% include tooltip.html term="solved" definition="We have used a second-order solver since it involves a matrix inversion, which corresponds to solving a quadratic system." %} $M_{\text{t}} \approx \sum_{i=1}^t \mathbf{v_i}\mathbf{k_i}^T$, which is just our compressed KV-cache. Here $\phi (\mathbf{k_i})$ is a linear kernel, but we can also use linear attention with a nonlinear feature map, which can be solved by the same approximation as above. This is essentially what [The Hedgehog](https://openreview.net/pdf?id=4g02l2N2Nx) and [DiJian](https://openreview.net/pdf?id=0uUHfhXdnH) do.
 
 Unlike linear attention, gated linear attention and state-space models implement time-decayed memory updates. We can model this as **weighted linear least squares**,
 
@@ -90,6 +90,34 @@ $$
 $$
 
 This looks a lot like recent state-space models ([Mamba-2](https://arxiv.org/pdf/2405.21060)) and gated linear attention ([GLA](https://proceedings.mlr.press/v235/yang24ab.html), [RWKV-6](https://arxiv.org/pdf/2404.05892), [mLSTM](https://arxiv.org/pdf/2405.04517)).
+
+The methods above solve the regression problem analytically, via a second-order solution. In order to be computationally feasible, they approximate the solution by ignoring the inversion, which leads to poor results in practice. We can instead try a first order solution like **online gradient descent**, which is computationally less expensive. This looks a lot more like what Schmidhuber had in mind with online learning via fast weights. Here, our model is not longer a naively summed hidden state – it's an MLP that learns. For SGD, this looks like,
+
+$$
+\nabla \mathcal{L}_t(\mathbf{M}) = \nabla \sum_{i=1}^t \frac{1}{2} \|\mathbf{v}_i - \mathbf{M}\mathbf{k}_i\|_2^2 = (\mathbf{M}\mathbf{K}^\top - \mathbf{V}^\top)\mathbf{K}
+$$
+
+We can now write the recurrence relationship as,
+
+$$
+\begin{align*}
+\mathbf{M}_t &= \mathbf{M}_{t-1} - \beta_t \nabla \mathcal{L}_t(\mathbf{M}_{t-1}) \\
+             &= \mathbf{M}_{t-1} + \beta_t (\mathbf{v}_t - \mathbf{M}_{t-1} \mathbf{k}_t) \mathbf{k}_t^\top \\
+             &= \mathbf{M}_{t-1} (\mathbf{I} - \beta_t \mathbf{k}_t \mathbf{k}_t^\top) + \beta_t \mathbf{v}_t \mathbf{k}_t^\top
+\end{align*}
+$$
+
+where $\beta_t$ is the learning rate or step-size for batched updates. The "learning to memorise at test-time" paradigm is exaclty this. It's used by [TTT](https://arxiv.org/pdf/2407.04620) and [DeltaNet](https://arxiv.org/pdf/2406.06484). [Titans](https://arxiv.org/pdf/2501.00663) also uses this, but adds momentum by having two hidden states, which they show stabilises learning. You can now start to appreciate the immense design freedom we can have with this, beyond vanilla SGD. Some ideas [Wang et al., (2025)](https://arxiv.org/pdf/2501.12352) proposed include adaptive
+
+Again, we see that we just generate an online sequence of associative memories that can map our keys back to our values. The diagram below shows how the online-learning method differs from recursive least squares,
+
+<div style="text-align: center; margin: 20px 0;">
+    <img src="/assets/images/posts/2025-02-02/update-rule-diagram.png" alt="Second order vs First order Solvers" style="width: 90%; max-width: 800px; filter: brightness(1.2);">
+</div>
+
+
+
+
 
 
 
