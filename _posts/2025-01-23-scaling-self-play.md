@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Predictions
-subtitle: A prediction on the state of AI at the start of April, 2025. 
+title: Scaling Self-Play
+subtitle: New scaling laws may be on the horizon – R1 and o3 are RL-trained by letting the models learn via self play. Why is this possible now? And what does this mean for the future of model capabilities?
 date: 2025-01-23
 categories: blog
 type: opinion
@@ -13,7 +13,7 @@ To recap, we know that [R1](https://arxiv.org/pdf/2501.12948) optimises a policy
 1. <strong>Accuracy</strong>: e.g. maths problems checked by [proof assistants](https://en.wikipedia.org/wiki/Lean_(proof_assistant)?useskin=vector) or code verified by compilers. 
 2. <strong>Formatting</strong>: e.g. using specific tags (e.g., `<think>` and `<answer>`) that lead to responses with higher "ratings". The policy learns when it is appropriate to `<think>`, which one could argue translates to some awareness of its own uncertainty.
 
-This is fantastic news for maths and programming. I predict that models will become very spikey in these abilities. We will see a line of IMO-like benchmarks being shattered.<sup>1</sup> Any verifiable task that lives in symbolic space will drastically improve beyond human capabilities. It might be the case that because maths is so detached from our evolutionary process, humans are actually quite bad at it relative to what is possible – predictions we make on the AI-maths ceiling might seriously surprise us. The main thing I see getting in the way of this is economic incentives – research level maths is almost exclusively driven by human interest. I do think mathematicians will still be around, defining meaningful problems they want to pursue.
+This is fantastic news for maths and programming. I predict that models will become very spikey in these abilities. Any verifiable task that lives in symbolic space will drastically improve beyond human capabilities. It might be the case that because maths is so detached from our evolutionary process, humans are actually quite bad at it relative to {% include tooltip.html term="what is possible" definition="Predictions we make on the AI-maths ceiling might seriously surprise us. The main thing I see getting in the way of this is economic incentives – research level maths is almost exclusively driven by human interest. I do think mathematicians will still be around, defining meaningful problems they want to pursue." %}. 
 
 Programmers, I have a bit more hope for. They continuously interact with the real world (customers) to re-define their problems – so until models can approximate (human) theory of mind and emulate what the customer wants, programmers should be fine – their jobs will just shift in the abstraction stack of logic. Also, see [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox?useskin=vector): we may see a lot more demand for software engineers.
 
@@ -108,7 +108,7 @@ Inference models (e.g. Groq) require less high-bandwidth memory (i.e. moving wei
 
 
 
-The field of [potential avenues for reasoning models is wide open](https://www.youtube.com/live/H3TnTxVKIOQ?si=L-VSeJ61DBSvGZh_&t=2433). I think there will be a lot of new approaches coming out of this – it hard to make predictions. But if you forced me to give one example it would be along the lines [reasoning in a continuous latent space](https://arxiv.org/html/2412.06769v1).<sup>4</sup> This might make test-time compute more efficient. And maybe [maths should be done in a separate symbolic space](https://www.youtube.com/live/H3TnTxVKIOQ?si=Rpb1ECLJLPU0mZMr&t=3081)  within the model etc. etc.
+The field of [potential avenues for reasoning models is wide open](https://www.youtube.com/live/H3TnTxVKIOQ?si=L-VSeJ61DBSvGZh_&t=2433). I think there will be a lot of new approaches coming out of this – it's hard to make predictions. But if you forced me to give one example it would be along the lines [reasoning in a continuous latent space](https://arxiv.org/html/2412.06769v1).<sup>4</sup> This might make test-time compute more efficient. And maybe [maths should be done in a separate symbolic space](https://www.youtube.com/live/H3TnTxVKIOQ?si=Rpb1ECLJLPU0mZMr&t=3081)  within the model etc. etc.
 
 
 If this new paradigm is to translate to the real world, then we will need to find ways to pretrain models on new data as well. Although models can learn things without "experiencing" them, e.g. gaining spatial awareness from text only, this seems to have diminishing returns. My guess is that "real-world" pretraining of current models does not have enough expressiveness/representations to do the kind of test-time reasoning that we see in abstract space with R1. The bottleneck will be to bring the external world to the model: feed more images, videos, [let the model interact with the world](https://www.inference.vc/untitled/), etc. My prediction is that we will start caring a lot more about this: the most important advancements in the next few years will be new architectures/data-generation/compression techniques for the real-world.<sup>5</sup> Maybe to be give a hypothetical example: 
@@ -119,13 +119,11 @@ If this new paradigm is to translate to the real world, then we will need to fin
 (these are made up on the spot – I have no idea what I am talking about. I just quite like the idea of [entropy](https://arxiv.org/pdf/2412.09871))
 
 
-You really thought I was going to skip on agents didn't you? Everyone and their dog is talking about agents. This has made me somewhat sceptical unfortunately. But with this whole reasoning thing, it's hard not to update my priors. If reasoning can be solved, then the browser can be too – the action space is mostly discrete and it should be straightforward to define crisp rewards: you've either booked your flight or not. I think we will start seeing intricate agentic processes that can do most things on a PC: move data around, run code, etc. Few other spaces have this level of economic incentives: this might be so great that the big labs productise this too!<sup>6</sup> I predict things will move fast. What I am most intrigued about is who wins here? With agents, everything will be about context – so who gets access to your browser? You? OpenAI? Google? We shall see.
 
----
 
-1. Gold Medal in IMO 2025 (July) + indicative evidence leading up to this event
+<!-- 1. Gold Medal in IMO 2025 (July) + indicative evidence leading up to this event
 2. A lot more talk about self-improving models via test-time compute + PPO. Training will involve predefining of less-and-less concrete rewards, if any. As of [23/01/2025](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=self-improving+chain+of+thought&btnG=), there are 4,380 results on Google Scholar
 3. At least one of Anthropic, X, Deepmind will announce stupendously expensive partnerships/commitments, along the lines of what OpenAI just made. 
 4. Lots of new papers attempting to improve on reasoning architectures. As of [23/01/2025](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=chain+of+thought+reasoning+architecture&btnG=), there are 269,000 results on Google Scholar
 5. Important advancements in architectures that process real-world data
-6. I kid you not, as I am writing this... 7 minutes ago [this was released](https://techcrunch.com/2025/01/23/openai-launches-operator-an-ai-agent-that-performs-tasks-autonomously/). My prediction was that at least one of the big labs would release an agent feature. This was based on seeing [Anthropic](https://techcrunch.com/2024/10/22/anthropics-new-ai-can-control-your-pc/) a few months ago. Nice ✅
+6. I kid you not, as I am writing this... 7 minutes ago [this was released](https://techcrunch.com/2025/01/23/openai-launches-operator-an-ai-agent-that-performs-tasks-autonomously/). My prediction was that at least one of the big labs would release an agent feature. This was based on seeing [Anthropic](https://techcrunch.com/2024/10/22/anthropics-new-ai-can-control-your-pc/) a few months ago. Nice ✅ -->
