@@ -65,7 +65,7 @@ title: Shelf
 * [Optimize for Volatility, not Average Capacity](https://jeremynixon.github.io/thinking/2015/06/22/optimize-for-volatility.html)
 * [Smart Contracts (1994) Nick Szabo](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html)
 * [How to Ask Smart Questions](http://www.catb.org/~esr/faqs/smart-questions.html)
-* [What Every Successful Person Knows, But Never Says](https://jamesclear.com/ira-glass-failure#:~:text=It%27s%20trying%20to%20be%20good,never%20get%20past%20that%20phase.): on the creative process
+* [Ira Glass on the Creative Process](https://www.goodreads.com/author/quotes/113989.Ira_Glass)
 * [Building Products – Christina Cacioppo](https://web.archive.org/web/20170706174617/http://christinacacioppo.com/blog/build-products): the iterative process of improving projects.
 * [Cosmic Natural Selection](https://en.wikipedia.org/wiki/Cosmological_natural_selection?useskin=vector)
 * [Freeman Dyson Heresies](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society){:.green}

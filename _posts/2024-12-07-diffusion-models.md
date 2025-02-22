@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diffusion Models
-subtitle: An exploration of the mathematical foundations of diffusion models, covering forward and reverse processes, ELBO, and training objectives.
+subtitle: The maths behind diffusion models, covering forward and reverse processes, ELBO, and training objectives.
 date: 2024-12-07
 categories: blog
 type: technical
@@ -57,7 +57,13 @@ $$
 q(x^{(t)} | x^{(0)}) = \mathcal{N}\big(x^{(t)}; \sqrt{\overline{\alpha}_t} x^{(0)}, (1 - \overline{\alpha}_t) I\big)
 $$
 
-where $\overline{\alpha}_t = \prod_{s=1}^t \alpha_s$. Rewriting this, $x^{(t)}$ is expressed as:
+where
+
+$$
+\overline{\alpha}_t = \prod_{s=1}^t \alpha_s
+$$
+
+Rewriting this, $x^{(t)}$ is expressed as:
 
 $$
 x^{(t)} = \sqrt{\overline{\alpha}_t} x^{(0)} + \sqrt{1 - \overline{\alpha}_t} \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)
@@ -81,5 +87,11 @@ $$
 
 This produces a final sample $x^{(0)}$ that approximates the data distribution $q(x)$.
 
-Diffusion models are robust due to their reliance on Gaussian transitions and the reparameterised noise prediction objective.
 
+----
+
+### Why don't we just sample from an isotropic Gaussian space?
+
+* A randomly drawn isotropic Gaussian sample is nowhere near the data manifold, making it difficult to learn an efficient reverse mapping.
+* The forward process gradually moves the data along a structured path, ensuring that each intermediate state is still meaningfully connected to the data distribution.
+* If we just sampled from pure Gaussian and tried to "find" the data manifold, we'd be searching blindly in an exponentially large space, making training infeasible.

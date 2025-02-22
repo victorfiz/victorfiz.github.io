@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .container {
@@ -21,6 +22,7 @@
     height: 60vh;
     text-align: left;
     padding: 20px;
+    position: relative;
   }
 
   h1 {
@@ -43,6 +45,14 @@
     margin-top: 10px;
     font-size: 14px;
   }
+
+  .resources-link {
+    position: fixed;
+    bottom: 60px;
+    left: calc(25vw);
+    color: rgba(0, 0, 0, 0.02);
+    font-size: 14px;
+  }
 </style>
 </head>
 <body>
@@ -53,5 +63,6 @@
     <a href="https://github.com/victorfiz">Code</a>
     <a href="mailto:" class="email">[name][surname]@gmail.com</a>
   </div>
+  <a href="/resources" class="resources-link">Resources</a>
 </body>
 </html>

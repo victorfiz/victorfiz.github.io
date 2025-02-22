@@ -1,0 +1,38 @@
+1. Dynamic Patching in CLIP
+2. Short Term Memory via kv caching (Titans) -> PPO to train a model to find most important info
+3. Improving exploration in GRPO... dynamic group querying... index on question space of high group disagreement -> currently there is only "relative" disagreement... Reward the PPO for finding high disagreement
+
+
+
+1. Dynamic Patching
+
+
+
+
+2. Short Term Memory
+
+
+
+3. Uncertainty quantification
+
+
+https://arxiv.org/pdf/2412.05563v1
+https://arxiv.org/pdf/2210.03649
+
+
+Train a policy that learns the most effective knowledge distillation into a small model: try to overfit the small model as rapidly as possible
+
+
+![Entropy-adjusted distilled PPO](assets/images/posts/2025-01-26/distilled-PPO.png)
+
+
+
+-------
+
+
+> Pyramidal 
+
+
+> [Prefix KV Caching](https://medium.com/byte-sized-ai/vllm-prefix-caching-vllms-automatic-prefix-caching-vs-chunkattention-749108317621#:~:text=The%20prefix%20KV%20caching,the%20entire%20input%20%5B2%5D.)
+
+
