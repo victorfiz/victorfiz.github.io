@@ -13,7 +13,7 @@ $$
 \min_{m \in \mathcal{M}} \frac{1}{2} \sum_{i=1}^t \gamma_i \,\| \mathbf{v}_i - m(k_i)\|_2^2
 $$
 
-where a model, $\mathcal{M}$ learns to minimise the retrieval of a value, given a key, weighted by how important this association should be, $\gamma_i$. Here, we will see how this genralisation leads to different architectures for associative memory.
+where a model, $m$, learns to minimise the retrieval of a value, given a key, weighted by how important this association should be, $\gamma_i$. Here, we will see how this genralisation leads to different architectures for associative memory.
 
 ### Associative Memory as Test-Time Regression
 
