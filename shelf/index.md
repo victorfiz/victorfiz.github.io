@@ -154,6 +154,7 @@ title: Shelf
 * [Unabomber Manifesto](https://www.washingtonpost.com/wp-srv/national/longterm/unabomber/manifesto.text.htm){:.green}
 * [Bret Victor - Seeing Spaces: ](https://www.youtube.com/watch?v=klTjiXjqHrQ){:.green}: A living contrarian's approach to rethinking design
 * [Marc Andreesen: History of Technology](https://www.youtube.com/watch?v=0jIqF2_PFFM)
+* [Steve Jobs: Thoughts on Flash](https://d.rsms.me/stuff/thoughts-on-flash-by-steve-jobs.html)
 * [Nat Friedman (Github CEO) Advice](https://nat.org/)
 * [A Brief History of Intelligence](https://www.goodreads.com/book/show/62050269-a-brief-history-of-intelligence)
 * [The Book of Why: The New Science of Cause and Effect – Judea Pearl](https://en.wikipedia.org/wiki/The_Book_of_Why?useskin=vector)
@@ -169,6 +170,7 @@ title: Shelf
 * [Most people want to change the world](https://bryce.vc/post/64889707700/most-people-wont)
 * [State of ML 2017-Present – Jeff Dean](https://research.google/people/jeff/)
 * [Recruiting - Vinod Khosla](https://www.khoslaventures.com/the-art-science-and-labor-of-recruiting/)
+* [Evolutionary Epistemology](https://en.wikipedia.org/wiki/Evolutionary_epistemology?useskin=vector): knowledge evolves through the process of natural selection
 * [Sam Altman – the days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
 * [Zero to One – Peter Thiel](https://www.amazon.co.uk/Zero-One-Notes-Startups-Future/dp/0804139296){:.green}
 * [Paul Graham Essays](https://www.paulgraham.com/articles.html){:.green}

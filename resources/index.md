@@ -35,11 +35,28 @@ title: Resources
 
 # Inference
 
+[Lil' Log: Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/): Distillation, Quantization, Pruning, Sparsity, Mixture-of-Experts, Architectural Optimization
+
 [Deep Dive: Optimizing LLM inference](https://www.youtube.com/watch?v=hMs8VNRy5Ys)
 
 [Assisted Generation: a new direction toward low-latency text generation – Hugging Face](https://huggingface.co/blog/assisted-generation)
 
 [LLM Transformer Inference Guide – Baseten](https://www.baseten.co/blog/llm-transformer-inference-guide/)
+
+# Scaling Training
+
+[Scaling GPU clusters and data-parallelism](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
+
+
+# CUDA
+
+[Simon Oz: Writing CUDA kernels](https://www.youtube.com/@szymonozog7862)
+
+[Introduction to CUDA Programming](https://www.pyspur.dev/blog/introduction_cuda_programming)
+
+
+
+
 
                     {% endcapture %}
                     {{ my_markdown | markdownify }}
