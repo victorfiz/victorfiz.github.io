@@ -33,6 +33,8 @@ title: Resources
 
 # Post Training
 
+[A short introduction to RLHF and post-training](https://arxiv.org/pdf/2504.12501): PDF
+
 # Inference
 
 [Lil' Log: Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/): Distillation, Quantization, Pruning, Sparsity, Mixture-of-Experts, Architectural Optimization
