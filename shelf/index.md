@@ -68,6 +68,7 @@ title: Shelf
 * [Ira Glass on the Creative Process](https://www.goodreads.com/author/quotes/113989.Ira_Glass)
 * [Building Products – Christina Cacioppo](https://web.archive.org/web/20170706174617/http://christinacacioppo.com/blog/build-products): the iterative process of improving projects.
 * [Cosmic Natural Selection](https://en.wikipedia.org/wiki/Cosmological_natural_selection?useskin=vector)
+* [The Ascent Of Man – Jacob Bronowski](https://www.bbc.co.uk/iplayer/episodes/b00wms4m/the-ascent-of-man)
 * [Freeman Dyson Heresies](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society){:.green}
 * [Berkshire Annual Reports](https://www.berkshirehathaway.com/reports.html)
 * [The Enlightened Economy - Joel Mokyr](https://www.amazon.com/Enlightened-Economy-Economic-History-1700-1850/dp/0300124554): An Economic History of Britain 1700-1850
@@ -115,7 +116,7 @@ title: Shelf
 * [No Rules (Netflix) – Reed Hastings](https://www.amazon.co.uk/No-Rules-Netflix-Culture-Reinvention/dp/1984877860): strategies for fostering innovation and creativity
 * [The Phoenix Project](https://www.amazon.co.uk/Phoenix-Project-DevOps-Helping-Business/dp/0988262592): DevOps and project management
 * [How to Win Friends & Influence People](https://www.amazon.co.uk/How-Win-Friends-Influence-People/dp/0671027034)
-* [](https://en.wikipedia.org/w/index.php?title=List_of_superseded_scientific_theories&useskin=vector#Physics)
+* [List of Superseded Scientific Theories](https://en.wikipedia.org/w/index.php?title=List_of_superseded_scientific_theories&useskin=vector#Physics)
 * [Delivering Happiness](https://www.amazon.co.uk/Delivering-Happiness-Profits-Passion-Purpose/dp/145550890X): company culture and customer service
 * [The Ancient City – Imperium Press](https://www.amazon.co.uk/Ancient-City-Religion-Institutions-Greece/dp/0801823048): roles of religion, social hierarchy, and governance in urban development and the daily lives of ancient Greeks and Romans
 * [The Machiavellians: Defenders of Freedom](https://www.amazon.co.uk/Machiavellians-Defenders-Freedom-James-Burnham/dp/1839013958/ref=sr_1_1?keywords=the+machiavellians&qid=1669055004&sprefix=the+machia%2Caps%2C124&sr=8-1): the importance of political power dynamics

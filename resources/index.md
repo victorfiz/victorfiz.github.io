@@ -45,6 +45,8 @@ title: Resources
 
 [LLM Transformer Inference Guide – Baseten](https://www.baseten.co/blog/llm-transformer-inference-guide/)
 
+[Fast LLM Inference From Scratch – Andrew Chan](https://andrewkchan.dev/posts/yalm.html)
+
 # Scaling Training
 
 [Scaling GPU clusters and data-parallelism](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
