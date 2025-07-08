@@ -76,6 +76,7 @@ title: Shelf
 * [Gitlab Manual](https://about.gitlab.com/handbook/): managing culture remotely
 * [David Hume and Adam Smith: The Infidel and the Professor](https://www.amazon.co.uk/Infidel-Professor-Friendship-Shaped-Thought/dp/0691177015)
 * [The Royal Society & The Invention of Modern Science](https://www.amazon.co.uk/Royal-Society-Invention-Modern-Science/dp/1541673581)
+* [Socratic Persuasion – Neel Nanda](https://www.neelnanda.io/blog/51-socratic-persuasion)
 * [The Innovator’s Dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma): when incumbents fail to innovate
 * [Complexity – Mitchell Waldrop](https://www.amazon.co.uk/Complexity-Emerging-Science-Order-Chaos/dp/0671872346): the emergence of the Santa Fe Institute
 * [A Short History of Nearly Everything – Bill Bryson: ](https://www.amazon.co.uk/Short-History-Nearly-Everything-Bryson/dp/0552997048){:.green}: my childhood favourite
@@ -122,6 +123,7 @@ title: Shelf
 * [The Machiavellians: Defenders of Freedom](https://www.amazon.co.uk/Machiavellians-Defenders-Freedom-James-Burnham/dp/1839013958/ref=sr_1_1?keywords=the+machiavellians&qid=1669055004&sprefix=the+machia%2Caps%2C124&sr=8-1): the importance of political power dynamics
 * [Margin of Safety – Seth Klarman](https://en.wikipedia.org/wiki/Margin_of_Safety_(book)?useskin=vector)
 * [Poor Charlie’s Almanac](https://www.stripe.press/poor-charlies-almanack)
+* [Hiring – Paul English](https://paulenglish.com/hiring.html)
 * [Silicon Valley Product Group Blog](https://www.svpg.com/articles/)
 * [The Intelligent Investor – Benjamin Graham](https://en.wikipedia.org/wiki/The_Intelligent_Investor?useskin=vector)
 * [Visualisations and Design – Bret Victor](http://worrydream.com/SeeingSpaces/SeeingSpaces.jpg)
@@ -152,7 +154,7 @@ title: Shelf
 * [Stephen Schwarzman – Family & Startups](https://youtu.be/aYwDs9LTN50?si=X4nC86kKTTWVKzw2&t=3590): life is a lonely road
 * [Maximising User Happiness Unscalably – Patrick Collison](https://youtu.be/y_4emS6D4og?si=VL4zAFdvfFY3yBuo)
 * [Evernote – How to build character into product](https://youtu.be/XM6NHNxS39E)
-* [Unabomber Manifesto](https://www.washingtonpost.com/wp-srv/national/longterm/unabomber/manifesto.text.htm){:.green}
+* [Unabomber Manifesto](https://www.washingtonpost.com/wp-srv/national/longterm/unabomber/manifesto.text.htm)
 * [Bret Victor - Seeing Spaces: ](https://www.youtube.com/watch?v=klTjiXjqHrQ){:.green}: A living contrarian's approach to rethinking design
 * [Marc Andreesen: History of Technology](https://www.youtube.com/watch?v=0jIqF2_PFFM)
 * [Steve Jobs: Thoughts on Flash](https://d.rsms.me/stuff/thoughts-on-flash-by-steve-jobs.html)
@@ -170,9 +172,11 @@ title: Shelf
 * [The Usborne Science Encyclopedia](https://www.amazon.co.uk/Usborne-Science-Encyclopedia-Kirsteen-Rogers/dp/079453046X){:.green}
 * [Most people want to change the world](https://bryce.vc/post/64889707700/most-people-wont)
 * [State of ML 2017-Present – Jeff Dean](https://research.google/people/jeff/)
+* [Robin Hanson – An anthology of overcoming bias](https://overcoming-bias-anthology.com/)
 * [Recruiting - Vinod Khosla](https://www.khoslaventures.com/the-art-science-and-labor-of-recruiting/)
 * [Evolutionary Epistemology](https://en.wikipedia.org/wiki/Evolutionary_epistemology?useskin=vector): knowledge evolves through the process of natural selection
 * [Sam Altman – the days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
+* [The Best Tacit Knowledge Videos on Every Subject](https://www.lesswrong.com/posts/SXJGSPeQWbACveJhs/the-best-tacit-knowledge-videos-on-every-subject)
 * [Zero to One – Peter Thiel](https://www.amazon.co.uk/Zero-One-Notes-Startups-Future/dp/0804139296){:.green}
 * [Paul Graham Essays](https://www.paulgraham.com/articles.html){:.green}
             {% endcapture %}

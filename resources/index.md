@@ -51,6 +51,7 @@ title: Resources
 
 [Scaling GPU clusters and data-parallelism](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
 
+[How to Scale Your Model – A Systems View of LLMs on TPUs](https://jax-ml.github.io/scaling-book/#links-to-sections)
 
 # CUDA
 
