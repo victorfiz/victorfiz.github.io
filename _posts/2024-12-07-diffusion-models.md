@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diffusion Models
-subtitle: The maths behind diffusion models, covering forward and reverse processes, ELBO, and training objectives.
+subtitle: Some maths behind diffusion models, connecting ELBO, and training objectives. As with most things... you are probably better off writing the [code](https://github.com/victorfiz/stable_diffusion/blob/main/pipeline/diffusion.py) than reading the maths.
 date: 2024-12-07
 categories: blog
 type: technical
@@ -87,11 +87,4 @@ $$
 
 This produces a final sample $x^{(0)}$ that approximates the data distribution $q(x)$.
 
-
 ----
-
-### Why don't we just sample from an isotropic Gaussian space?
-
-* A randomly drawn isotropic Gaussian sample is nowhere near the data manifold, making it difficult to learn an efficient reverse mapping.
-* The forward process gradually moves the data along a structured path, ensuring that each intermediate state is still meaningfully connected to the data distribution.
-* If we just sampled from pure Gaussian and tried to "find" the data manifold, we'd be searching blindly in an exponentially large space, making training infeasible.

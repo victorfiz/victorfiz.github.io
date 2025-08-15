@@ -1,13 +1,13 @@
 ---
 layout: default
 title: The Blessings of Dimensionality
-subtitle: High dimensional space is often said to be cursed. It has some unintuitive properties that complicates the separation of meaningful information in traditional machine learning. Looking closer, it turns out that this is actually a blessing in disguise for real-world data. 
+subtitle: High dimensional space has some unintuitive properties that complicates separation of information. It turns out, however, that this is actually a blessing in disguise for real-world data. This is your antidote to statistical learning theory.
 date: 2024-12-15
 categories: blog
 type: technical
 ---
 
-Understanding spaces in high dimensions is surprisingly unintuitive. A simple example that illustrates this is scaling a sphere to infinite dimensions, where its volume tends to zero. 
+Understanding spaces in high dimensions is surprisingly unintuitive. A simple example that illustrates this is scaling a sphere to infinite dimensions: its volume tends to zero.
 
 Let's show this mathematically. The volume of a sphere is given by:
 
@@ -16,7 +16,7 @@ V_n(r) = \frac{\pi^{n/2}}{\Gamma(n/2 + 1)} r^n
 $$
 
 <details>
-<summary>If you have seen this equation before, we have a straighforward proof that the volume tends to zero.</summary>
+<summary>If this equation is familiar to you, you can pretty quickly see that the volume tends to zero.</summary>
 
 
 $$
@@ -36,13 +36,13 @@ $$
 <small>To simplify notation, this considers a unit sphere, $r=1$.</small>
 </details>
 
-Unfortunately it's a little difficult to develop an intuition around this formula. A nicer way to visualise this is to think of a ball (by which I mean a hypersphere) as a stack of [discs in a lower dimension](https://math.stackexchange.com/questions/15656/volumes-of-n-balls-what-is-so-special-about-n-5).
+I find it a little difficult to develop an intuition around this formula, so a nicer way to visualise this is to think of a ball (or hypersphere) as a stack of [discs in a lower dimension](https://math.stackexchange.com/questions/15656/volumes-of-n-balls-what-is-so-special-about-n-5).
 
 <div style="text-align: center; margin: 20px 0;">
     <img src="/assets/images/posts/2024-12-15/disked_sphere.png" alt="A sphere of disks" style="width: 50%; max-width: 500px;">
 </div>
 
-Consider an $(n+1)$-dimensional unit ball made up of $n$-dimensional disks (or balls if you will). From the definition of a unit hypersphere,
+Consider an $(n+1)$-dimensional unit ball made up of $n$-dimensional disks (which eventually are just hyperspheres themselves). From the definition of a unit hypersphere,
 
 $$
 x^2 + y_1^2 + y_2^2 + \cdots + y_n^2 \leq 1 ,
@@ -69,7 +69,7 @@ $$
 
 
 <details>
-<summary>If you're still wondering where that gamma function came from...</summary>
+<summary>If you're still wondering where that gamma function above came from...</summary>
 
 $$
 = V_n \int_{0}^{1} t^{-\frac{1}{2}} (1 - t)^{\frac{n}{2}} \, dt
@@ -181,7 +181,7 @@ Clustering or other similarity search methods rely on relative distances so requ
 
 -----
 
-Of course, the most interesting forms of data we encouter today (cats) rarely come from a single distribtion: they come from [hierarchies of generative processes](https://www.kind-of-works.com/papers/shell_theory_preprint.pdf). For instance, a British shorthair might be generated from a generator of cat breeds, which in turn is generated from a feline generator, and so on. In such a hierarchical generative model, each child generator adds its own small shift (in mean and variance) relative to its parent. Notice that we use the term *"generator"* to emphasise an active stochastic process for creating data points that can be statistically described by *"distributions"*.
+Of course, the most interesting forms of data we encouter today (cats) rarely come from a single distribtion: they come from [hierarchies of generative processes](https://www.kind-of-works.com/papers/shell_theory_preprint.pdf). For instance, a British shorthair might be generated from a generator of cat breeds, which in turn is generated from a feline generator, and so on. In such a hierarchical generative model, each child generator adds its own small shift (in mean and variance) relative to its parent. Notice that we use the term *"generator"* to emphasise an active stochastic process for creating data points that can be described by *"statistical distributions"*.
 
 Let's try and understand why this *concentration of measure* phenomenon is not an issue in hierarchically generated distributions:
 
