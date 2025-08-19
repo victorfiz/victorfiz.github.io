@@ -61,7 +61,7 @@ title: Projects
 <iframe src="https://www.youtube.com/embed/We3ntH9Z_aI" title="5-axis FDM 3D Printer video" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-A custom 5-axis printer running modified Marlin firmware on an STM32 ARM Cortex-M4 MCU. The system controls five stepper motors: a CoreXY setup, a vertical Z-axis, and two polar U and V axes driven by high-ratio gearboxes. Motion is handled through TMC2130 drivers via SPI, with homing and feedback from optical endstops and a thermistor-heated hotend. The additional degrees of freedom required developing a new 5-axis slicer that generates segmented G-code to define full toolpaths. This unlocks coordinate frame rotation to generate complex geometries with fewer supports and improved material efficiency.
+A custom 5-axis printer running modified Marlin on an STM32 ARM Cortex-M4 MCU. The system controls five stepper motors: a CoreXY setup, a vertical Z-axis, and two polar U and V axes driven by high-ratio gearboxes. Motion is handled through TMC2130 drivers via SPI, with homing and feedback from optical endstops. The additional degrees of freedom required developing a new 5-axis slicer that generates segmented G-code to define full toolpaths. This unlocks coordinate frame rotation to generate complex geometries with fewer supports and improved material efficiency.
 
 [Design portfolio](https://github.com/victorfiz/pentax/blob/main/Design%20Portfolio.pdf)
 
@@ -76,6 +76,44 @@ A custom 5-axis printer running modified Marlin firmware on an STM32 ARM Cortex-
 NetHack is a procedurally generated game rendered in ASCII graphics. It has a vast action space, making it an unsolved benchmark for reasoning and long-horizon planning. wiki-BALROG equips a NetHack language model agent with RAG, pulling knowledge from the NetHack Wiki to guide informed decisions. Using FAISS retrieval, it beats BALROG baselines and shows how RAG can scale reasoning in tough, knowledge-rich environments.
 
 [Paper](https://github.com/victorfiz/UCL-Machine-Learning-MSc/blob/main/open-endedness_general_intelligence/wiki-BALROG.pdf)
+
+---
+
+## Stable Diffusion
+
+![Stable Diffusion](/projects/stable_diffusion-img.png)
+
+A minimal implementation of stable diffusion with a trainable VAE, latent DDPM scheduler, cross-attention with cfg, and a simple sampling pipeline.
+
+[Code](https://github.com/victorfiz/stable_diffusion/tree/main)
+
+---
+
+## Knowledge Distillation for Quantized Training
+
+![Knowledge Distillation for Training Quantized LLMs Efficiently](/projects/bitdistiller-img.png)
+
+Investigating BitDistiller, a quantization-aware training method with knowledge distillation, focusing on three open questions: its effectiveness at small scales, its applicability to the 1-bit regime, and the role of teacher model size.
+
+[Code](https://github.com/BrownianNotion/BitDistiller)
+
+[Paper](https://github.com/victorfiz/UCL-Machine-Learning-MSc/blob/main/statistical_NLP/Knowledge%20Distillation%20for%20Efficient%20Training%20of%20Quantized%20LLMs.pdf)
+
+## Semantic Voice Activity Detection
+
+![Semantic-VAD](/projects/semantic_VAD-img.png)
+
+A lightweight VAD setup that uses semantics to add nuance to end-of-speech detection. Motivated by lack of fast and accurate EOS prediction modules for speech-to-speech systems.
+
+[Code](https://github.com/victorfiz/Semantic-VAD/tree/master)
+
+## Alzheimer’s disease: A positive feedback-loop induced by oxidative stress
+
+![Knowledge Distillation for Training Quantized LLMs Efficiently](/projects/alzheimers-img.png)
+
+A highschool project working in [Richard Killick's](https://www.kcl.ac.uk/people/richard-killick) lab at King's College London. Trying to better understand the interaction of PARP-1 and GSK-3 pathways.
+
+[Paper]()
 
                     {% endcapture %}
                     {{ my_markdown | markdownify }}
