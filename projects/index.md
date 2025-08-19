@@ -113,7 +113,7 @@ A lightweight VAD setup that uses semantics to add nuance to end-of-speech detec
 
 A highschool project working in [Richard Killick's](https://www.kcl.ac.uk/people/richard-killick) lab at King's College London. Trying to better understand the interaction of PARP-1 and GSK-3 pathways.
 
-[Paper]()
+[Paper](https://github.com/victorfiz/victorfiz.github.io/blob/main/projects/Alzheimer's%20Disease%20%E2%80%93%20%20Positive%20feedback%20of%20oxidative%20stress.pdf)
 
                     {% endcapture %}
                     {{ my_markdown | markdownify }}
