@@ -61,7 +61,7 @@ title: Projects
 <iframe src="https://www.youtube.com/embed/We3ntH9Z_aI" title="5-axis FDM 3D Printer video" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-A custom 5-axis printer running modified Marlin on an STM32 ARM Cortex-M4 MCU. The system controls five stepper motors: a CoreXY setup, a vertical Z-axis, and two polar U and V axes driven by high-ratio gearboxes. Motion is handled through TMC2130 drivers via SPI, with homing and feedback from optical endstops. The additional degrees of freedom required developing a new 5-axis slicer that generates segmented G-code to define full toolpaths. This unlocks coordinate frame rotation to generate complex geometries with fewer supports and improved material efficiency.
+Excuse the uncanny Jony Ive impersonation. This is a custom 5-axis printer running modified Marlin on an STM32 ARM Cortex-M4 MCU. The system controls five stepper motors: a CoreXY setup, a vertical Z-axis, and two polar U and V axes driven by high-ratio gearboxes. Motion is handled through TMC2130 drivers via SPI, with homing and feedback from optical endstops. The additional degrees of freedom required developing a new 5-axis slicer that generates segmented G-code to define toolpath in higher dimensions. This unlocks coordinate frame rotations to generate complex geometries with fewer supports and improved material efficiency.
 
 [Design portfolio](https://github.com/victorfiz/pentax/blob/main/Design%20Portfolio.pdf)
 
@@ -73,7 +73,7 @@ A custom 5-axis printer running modified Marlin on an STM32 ARM Cortex-M4 MCU. T
 <iframe src="https://www.youtube.com/embed/8mXEojuBmm8" title="wiki-BALROG video" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-NetHack is a procedurally generated game rendered in ASCII graphics. It has a vast action space, making it an unsolved benchmark for reasoning and long-horizon planning. wiki-BALROG equips a NetHack language model agent with RAG, pulling knowledge from the NetHack Wiki to guide informed decisions. Using FAISS retrieval, it beats BALROG baselines and shows how RAG can scale reasoning in tough, knowledge-rich environments.
+NetHack is a procedurally generated game rendered in ASCII. It has a large space, making it an unsolved benchmark for reasoning and long-horizon planning. wiki-BALROG equips a NetHack language model agent with RAG, pulling knowledge from the NetHack Wiki to guide informed decisions. Using FAISS retrieval, it beats BALROG baselines and shows how RAG can scale reasoning in tough, knowledge-rich environments.
 
 [Paper](https://github.com/victorfiz/UCL-Machine-Learning-MSc/blob/main/open-endedness_general_intelligence/wiki-BALROG.pdf)
 
