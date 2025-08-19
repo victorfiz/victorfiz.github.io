@@ -31,11 +31,11 @@ title: Resources
                 <div class='markdown-body'>
                     {% capture my_markdown %}
 
-# Post Training
+## Post Training
 
 [A short introduction to RLHF and post-training](https://arxiv.org/pdf/2504.12501): PDF
 
-# Inference
+## Inference
 
 [Lil' Log: Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/): Distillation, Quantization, Pruning, Sparsity, Mixture-of-Experts, Architectural Optimization
 
@@ -47,13 +47,13 @@ title: Resources
 
 [Fast LLM Inference From Scratch – Andrew Chan](https://andrewkchan.dev/posts/yalm.html)
 
-# Scaling Training
+## Scaling Training
 
 [Scaling GPU clusters and data-parallelism](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
 
 [How to Scale Your Model – A Systems View of LLMs on TPUs](https://jax-ml.github.io/scaling-book/#links-to-sections)
 
-# CUDA
+## CUDA
 
 [Simon Oz: Writing CUDA kernels](https://www.youtube.com/@szymonozog7862)
 

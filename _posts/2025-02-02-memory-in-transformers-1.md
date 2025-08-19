@@ -7,7 +7,7 @@ categories: blog
 type: technical
 ---
 
-<span style="color: #D3D3D3;">Feel free to skip this if you have come across linear attention before.</span>
+<span style="color: #D3D3D3;">Feel free to skip this if you have come across linear attention before. Jump to "reconstructing v from S".</span>
 
 The insight [{% include tooltip.html term="attention" definition="Attention genereally, but I will be speaking about attention in the causally-masked autoregressive sense here" %}](https://arxiv.org/pdf/1409.0473) brought was that tokens do not exist in a vacuum, they are {% include tooltip.html term="shaped by their context" definition="More specifically, each token is differentially affected by each part of the context to different extents. I imagine this was understood before [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473) proposed attention" %}. [Vaswani et al., 2017](https://arxiv.org/pdf/1706.03762) proposed that the information a newly predicted token receives, $\mathbf{o_t}$, is just the weighted sum of information, $\mathbf{v_i}$, emitted by all prior tokens. This weighting is determined by an arbitrary score of similarity, $\text{sim}(\mathbf{q_t},\mathbf{k_i})$, between the keys, $\mathbf{k_i}$ of each context tokens, and the query, $\mathbf{q_t}$ of the last token. i.e. to what extent each context token should transmit information to $\mathbf{q_t}$. We normalise this similarity to give a weighted average,
 
